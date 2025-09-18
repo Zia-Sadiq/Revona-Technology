@@ -1,6 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Users, Target, Award, Lightbulb } from 'lucide-react';
+import Zia from '../../public/Zia.jpg';
+import Ali from '../../public/Ali.jpg';
+import Khadeeja from '../../public/Khadeeja.jpg';
+import Barfi from '../../public/Barfi.jpg';
+import Mona from '../../public/Mona.jpg';
 
 const About = () => {
   const values = [
@@ -30,27 +35,27 @@ const About = () => {
     {
       name: 'Zia Sadiq',
       role: 'CEO && Founder',
-      image: '/public/Zia.jpg'
+      image: Zia
     },
     {
       name: 'Ali Irtza',
       role: 'COO && CFO',
-      image: '/public/Ali.jpg'
+      image: Ali
     },
     {
       name: 'Khadeeja Shahid',
       role: 'CPO',
-      image: '/public/Khadeeja.jpg'
+      image: Khadeeja
     },
     {
       name: 'Mehvish Abbas',
       role: 'CTO',
-      image: '/public/Barfi.jpg'
+      image: Barfi
     },
     {
       name: 'Momna Naseem',
       role: 'CHRO',
-      image: '/public/Mona.jpg'
+      image: Mona
     }
   ];
 
