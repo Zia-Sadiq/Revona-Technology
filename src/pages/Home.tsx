@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Code, Smartphone, Globe, Database, Shield, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import revo from '../../public/REVO.png';
 
 const Home = () => {
   const services = [
@@ -107,7 +108,7 @@ const Home = () => {
               className="flex justify-center"
             >
               <motion.img 
-                src="/public/REVO.png" 
+                src={revo} 
                 alt="Revona Technologies" 
                 className="w-68 h-68 object-contain hover:scale-110 transition-transform duration-100"
                 whileHover={{ 
