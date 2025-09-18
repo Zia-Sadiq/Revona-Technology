@@ -1,4 +1,5 @@
 import React from 'react';
+import revona from '../../public/revona.jpg';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github, Instagram, Facebook } from 'lucide-react';
 
 const Footer = () => {
@@ -10,7 +11,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/public/revona.jpg" 
+                src={revona} 
                 alt="Revona Technologies" 
                 className="h-12 w-auto"
               />
