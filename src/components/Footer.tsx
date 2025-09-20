@@ -28,10 +28,10 @@ const Footer = () => {
               <a href="https://www.linkedin.com/company/revona-technologies" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/revona_technologies/" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/revona.technologies" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook size={20} />
               </a>
             </div>
@@ -63,7 +63,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin size={16} className="text-gray-400" />
-                <span className="text-gray-300">Lahore, Punjab, Pakistan</span>
+                <span className="text-gray-300">Bahawalpur, Punjab, Pakistan</span>
               </div>
             </div>
           </div>
