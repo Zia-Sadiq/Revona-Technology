@@ -1,6 +1,7 @@
 import React from 'react';
 import revona from '../../public/revona.jpg';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github, Instagram, Facebook } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -41,7 +42,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Home</a></li>
+              <li><Link to="/" className="text-gray-300 hover:text-white transition-colors">Home</Link></li>
               <li><Link to="../pages/About.tsx" className="text-gray-300 hover:text-white transition-colors">About</Link></li>
               <li><Link to="../pages/Services.tsx" className="text-gray-300 hover:text-white transition-colors">Services</Link></li>
               <li><Link to="../pages/Portfolio.tsx" className="text-gray-300 hover:text-white transition-colors">Portfolio</Link></li>
