@@ -34,27 +34,27 @@ const About = () => {
   const team = [
     {
       name: 'Zia Sadiq',
-      role: 'CEO && Founder',
+      // role: 'CEO && Founder',
       image: Zia
     },
     {
       name: 'Ali Irtza',
-      role: 'COO && CFO',
+      // role: 'COO && CFO',
       image: Ali
     },
     {
       name: 'Khadeeja Shahid',
-      role: 'CPO',
+      // role: 'CPO',
       image: Khadeeja
     },
     {
       name: 'Mehvish Abbas',
-      role: 'CTO',
+      // role: 'CTO',
       image: Barfi
     },
     {
       name: 'Momna Naseem',
-      role: 'CHRO',
+      // role: 'CHRO',
       image: Mona
     }
   ];
@@ -175,7 +175,7 @@ const About = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-10"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Co Founders</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Our diverse team of experts brings together years of experience and a passion for innovation.
             </p>
